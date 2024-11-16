@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  /* height: 200vh; */
+}
+
+header,
+main {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+ul li {
+  list-style: none;
+}
+
+.header {
+  margin: 0 auto;
+  width: 1440px;
+  /* border: 6px solid green; */
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+
+.navbar {
+  /* border: 2px solid red; */
+  position: fixed;
+  width: 1440px;
+  background-color: #ffffff;
+  top: 0;
+}
+.navbar__sub-nav {
+  background: #b36050;
+}
+
+.sub-info {
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27.2px;
+  text-align: center;
+  color: #f1d3b9;
+}
+.main-nav {
+  position: relative;
+  /* border: 6px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 120px;
+  background-color: inherit;
+}
+.main-nav__links {
+  display: flex;
+  gap: 32px;
+  padding: 16px 52px;
+}
+.main-nav__link-item {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #b4604d;
+  cursor: pointer;
+}
+.main-nav__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 120px;
+  cursor: pointer;
+}
+.nav-img {
+}
+.profile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 19px 0px;
+  gap: 18.5px;
+}
+.account {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #b4604d;
+  cursor: pointer;
+}
+.shop-cart {
+  margin: 2px 0px;
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+  align-items: center;
+  cursor: pointer;
+}
+.shop-cart-nol {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.4px;
+  color: #b4604d;
+}
+
+.main-header__background {
+  margin: 0 auto;
+  margin-top: 112px;
+  background-image: url("../images/header-background.png");
+  width: 1440px;
+  height: 435px;
+}
+.sub-header__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a9ae8d;
+  margin: 0 auto;
+  width: 1440px;
+  height: 309px;
+}
+.sub-question {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #f6f4ec;
+  padding-top: 69px;
+}
+.header-title {
+  margin-top: 15px;
+  font-family: Roboto;
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 64px;
+  color: #f6f4ec;
+}
+.shop-btn {
+  border: none;
+  padding: 10px 20px;
+  margin-top: 37px;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28.8px;
+  background-color: #b45f4d;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* SECTION-2 */
+.pretty-bottle {
+  background-color: rgb(244, 231, 214);
+  margin: 0 auto;
+}
+.container {
+}
+.pretty-bottle__title {
+  text-transform: capitalize;
+  margin-top: 39px;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 39.2px;
+  text-align: center;
+  color: #b45f4d;
+}
+.card-wrapper {
+  margin-top: 40px;
+  /* margin-top: 14px; */
+  padding: 50px 0px 9px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 73px;
+}
+.card {
+}
+.card__header {
+}
+.card__header-img {
+  width: 340px;
+  height: 510px;
+}
+.card__body {
+  padding-bottom: 33px;
+}
+.card__title {
+  margin-top: 35px;
+  text-transform: uppercase;
+}
+.card__price {
+  margin-top: 23px;
+}
+.shift-arrow {
+  display: flex;
+  justify-content: space-between;
+}
+.left-shift-arrow {
+  cursor: pointer;
+}
+.right-shift-arrow {
+  cursor: pointer;
+}
+/* SECTION-2 */
+
+/* SECTION-3 */
+.warmth-of-desert {
+}
+.container {
+}
+.warmth-of-desert__img {
+  margin-top: 34px;
+  position: relative;
+}
+
+.warmth-of-desert__img img {
+  width: inherit;
+  height: 407.55px;
+}
+.warmth-of-desert__info {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  position: absolute;
+  bottom: 55px;
+  background-color: #df9b7a;
+}
+.warmth-of-desert__text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #f6f4ec;
+}
+.warmth-of-desert__link a {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  color: #f6f4ec;
+}
+/* SECTION-3 */
